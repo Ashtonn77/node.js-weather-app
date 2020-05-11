@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="/images/weather.png">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+     <div class="main-content">
+    {{>header}}   
+        <p>Let's check on the weather, shall we?</p>
+
+        <form action="">
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </form>
+
+            <p id="text-one"></p>
+            <p id="text-two"></p>
+
+    </div>
+
+    {{>footer}}
+    <script src="/js/index.js"></script>
+</body>
+</html>
